@@ -1,0 +1,28 @@
+.forum-preview {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.forum-preview h2 {
+    color: mediumseagreen;
+    font-size: medium;
+}
+
+.forum-preview h2:hover {
+    color: #2D6A4F;
+    cursor: pointer;
+}
+
+.preview-title {
+    width: 250px;
+}
+.post-info {
+    font-size: small;
+    width: 500px;
+}

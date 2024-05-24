@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+/* DISPOSICION DEL CUERPO */
+* {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, .title {
+    font-family: "League Spartan", sans-serif;
+    font-weight: bolder;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    width: 1200px; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /*width: 100%;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    height: 40px;
+    min-width: 50px;
+    max-width: 90px;
+    margin: 5px; 
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+/* NAVBAR COMPONENT */ 
+.logo{
+    height: 50px;
+    margin-left: 10px;
+    width: auto;
+}
+
+.logo-link {
+    background-color: transparent;
+}
+
+.navbar{
+    background-color:mediumseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    background-color: transparent;
+}
+
+.link{
+    font-size: medium;
+    text-decoration: none;
+    background-color: mediumseagreen;
+    color: white;
+    padding: 10px;
+}
+
+.link:hover{
+    color: #096134;
+}
+
+.pagination {
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.pagination > button {
+    width: 200px;
+    height: auto;
+}
+
+.pagination > button:disabled {
+    background-color: rgb(164, 164, 164);
+}
+
+.pagination > button:hover {
+    cursor: pointer;
+}
